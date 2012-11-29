@@ -1,6 +1,6 @@
 <?php
 require_once('jsonRPCClient.php');
-$b = new jsonRPCClient('http://bitcoinrpc:jfli209jg0239gawj@127.0.0.1:8332/');
+$b = new jsonRPCClient('http://bitcoinrpc:PASSWORD@127.0.0.1:8332/');
 
 define('MIN_BET', 0.01);
 define('MAX_BET', 0.32);
